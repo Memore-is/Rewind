@@ -1,0 +1,94 @@
+ts This field is a timestamp indicating when the track stopped
+playing in UTC (Coordinated Universal Time). The order is
+year, month and day followed by a timestamp in military time
+username This field is your Spotify username.
+platform This field is the platform used when streaming the track (e.g.
+Android OS, Google Chromecast).
+ms
+_played This field is the number of milliseconds the stream was
+played.
+conn
+_
+country This field is the country code of the country where the stream
+was played (e.g. SE - Sweden).
+Ip_
+addr
+_
+decrypted This field contains the IP address logged when streaming the
+track.
+user
+_
+agent
+_
+decrypted This field contains the user agent used when streaming the
+track (e.g. a browser, like Mozilla Firefox, or Safari)
+master
+metadata
+track
+name _
+_
+_
+This field is the name of the track.
+master
+metadata
+album
+artist
+_
+_
+_
+_
+name This field is the name of the artist, band or podcast.
+master
+metadata
+album
+album
+name _
+_
+_
+_
+This field is the name of the album of the track.
+spotify_
+track
+_
+uri A Spotify URI, uniquely identifying the track in the form of
+“spotify:track:<base-62 string>”
+A Spotify URI is a resource identifier that you can enter, for
+example, in the Spotify Desktop client’s search box to locate
+an artist, album, or track.
+episode
+_
+name This field contains the name of the episode of the podcast.
+episode
+show
+_
+_
+name This field contains the name of the show of the podcast.
+spotify_
+episode
+_
+uri A Spotify Episode URI, uniquely identifying the podcast
+episode in the form of “spotify:episode:<base-62 string>”
+A Spotify Episode URI is a resource identifier that you can
+enter, for example, in the Spotify Desktop client’s search box
+to locate an episode of a podcast.
+reason
+_
+start This field is a value telling why the track started (e.g.
+“trackdone”)
+reason
+_
+end This field is a value telling why the track ended (e.g.
+“endplay”).
+shuffle This field has the value True or False depending on if shuffle
+mode was used when playing the track.
+skipped This field indicates if the user skipped to the next song
+offline This field indicates whether the track was played in offline
+mode (“True”) or not (“False”).
+offline
+_
+timestamp This field is a timestamp of when offline mode was used, if
+used.
+incognito
+_
+mode This field indicates whether the track was played during a
+private session (“True”) or not (“False”).
