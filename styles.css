@@ -1,3 +1,18 @@
-.body{
-    background-color: rgb(214, 184, 139);
+body {
+    background-color: rgb(241, 231, 215);
 }
+
+main {
+    display: flex;
+    gap: 50px;
+}
+
+div {
+    background-color: rgb(38, 0, 0);
+    border-radius: 20px;
+    padding: 10px;
+
+    color: rgb(241, 231, 215);
+    text-align: center;
+}
+
