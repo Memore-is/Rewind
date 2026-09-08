@@ -19,9 +19,9 @@ file.onchange = (e) => {
 
             if (data[i].ms_played <= 30*60) {
                 totals++;
-                totalt += (data[i].ms_played)/3600;
+                totalt += data[i].ms_played;
             }
-            document.getElementById("ttime").textContent = totalt;
+            document.getElementById("ttime").textContent = totalt/3600;
             document.getElementById("tsongs").textContent = totals;
             document.getElementById("tstreams").textContent = i;
             document.getElementById("talbums").textContent = i;
@@ -34,3 +34,13 @@ file.onchange = (e) => {
 
     reader.readAsText(selected);    // starts with file to be read
 }
+
+// what counts as a stream function --> skip/no-skip or time
+
+// function for total time would need to convert from ms to hrs, mins, and sec
+// function for total songs would need an array of song names to determine if a song has been played before 
+// total stream is just all listening events passed through condition
+// total artists would be a 2d array --> [[artist, number of unique songs listened, number of streams, number of albums, listening time], again]
+
+// when to count an album --> single play from that album / multiple plays? + same song found in different album?
+// ignore genres for now
